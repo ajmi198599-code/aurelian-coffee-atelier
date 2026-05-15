@@ -151,7 +151,7 @@ try {
         ogType: document.querySelector('meta[property="og:type"]')?.getAttribute("content") || "",
         ogImage: document.querySelector('meta[property="og:image"]')?.getAttribute("content") || "",
       },
-      creatorVisible: document.body.textContent.includes("Created by Mohammed Hilmi"),
+      creatorVisible: document.body.textContent.includes("Created by Mohammed Ajmi"),
       emailVisible: document.body.textContent.includes("ajmi.198599@gmail.com"),
       successVisible: document.body.textContent.includes("Request received — this is a concept demo."),
     };
@@ -221,3 +221,4 @@ try {
   await stopServer();
   fs.writeFileSync(path.join(artifactsDir, "next-dev.log"), log);
 }
+

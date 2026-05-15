@@ -384,7 +384,7 @@ function FinalCTASection() {
       <aside className="creator-card reveal" aria-label="Creator and purchase inquiry">
         <div>
           <p className="section-kicker">Designer signature</p>
-          <h2>Created by Mohammed Hilmi</h2>
+          <h2>Created by Mohammed Ajmi</h2>
           <strong>Web Designer & Creative Frontend Builder</strong>
           <p>
             This cinematic landing page was designed as a premium interactive concept for coffee brands, cafés, restaurants, and luxury product experiences.
@@ -395,7 +395,7 @@ function FinalCTASection() {
             <a href={designerMailto}> {designerEmail}</a>
           </p>
         </div>
-        <a className="command-button primary designer-cta" href={designerMailto} aria-label="Contact Mohammed Hilmi about this landing page concept">
+        <a className="command-button primary designer-cta" href={designerMailto} aria-label="Contact Mohammed Ajmi about this landing page concept">
           <Mail size={17} />
           Contact the Designer
         </a>
@@ -409,7 +409,7 @@ function FinalCTASection() {
         <ArrowRight size={16} />
       </div>
       <footer className="site-footer reveal">
-        <p>© 2026 Aurelian Coffee Atelier Concept. Created by Mohammed Hilmi — Web Designer.</p>
+        <p>© 2026 Aurelian Coffee Atelier Concept. Created by Mohammed Ajmi — Web Designer.</p>
         <nav aria-label="Footer links">
           <a href={designerMailto}>
             Contact Designer
@@ -432,3 +432,4 @@ function FinalCTASection() {
     </section>
   );
 }
+

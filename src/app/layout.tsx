@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Aurelian Coffee Atelier — Cinematic Coffee Experience",
-    description: "A premium cinematic landing page concept created by Mohammed Hilmi, Web Designer.",
+    description: "A premium cinematic landing page concept created by Mohammed Ajmi, Web Designer.",
     type: "website",
     images: [
       {
@@ -37,3 +37,4 @@ export default function RootLayout({
     </html>
   );
 }
+
